@@ -50,6 +50,55 @@
     </nav>
     <!-- ==== Main Section ==== -->
     <main class="flex-shrink-0">
+        <div class="container mt-5">
+            <h1>Loan Calculator</h1>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col border-end border-2">
+                    <div>
+                        <form class="row gy-2 gx-3">
+                            <div class="col-12">
+                                <label for="loanAmount">Loan Amount</label>
+                                <input type="number" name="loanAmount" id="loanAmount" class="form-control" aria-label="Loan Amount">
+                            </div>
+                            <div class="col-12">
+                                <label for="payments">Payments</label>
+                                <input type="number" name="payments" id="payments" class="form-control" aria-label="Payments">
+                            </div>
+                            <div class="col-12">
+                                <label for="rate">Rate</label>
+                                <input type="number" name="rate" id="rate" class="form-control" aria-label="Rate">
+                            </div>
+                            <div class="col-12 d-flex justify-content-end">
+                                <button type="button" id="btnSubmit" class="btn btn-primary btn-lg">Calculate</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3 class="d-flex justify-content-center mb-5"><em>Your Monthly Payments</em></h3>
+                    <div class="col-12">
+                        <p class="d-flex justify-content-start"><em>Total Principal</em></p>
+
+                    </div>
+                    <div class="col-12">
+                        <p class="d-flex justify-content-start"><em>Total Interest</em></p>
+
+                    </div>
+                    <div class="col-12">
+                        <p class="d-flex justify-content-start"><em>Total Cost</em></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row tableHeaders mt-5">
+                <div class="col text-white"><strong>Month</strong></div>
+                <div class="col text-white"><strong>Payment</strong></div>
+                <div class="col text-white"><strong>Principal</strong></div>
+                <div class="col text-white"><strong>Interest</strong></div>
+                <div class="col text-white"><strong>Total Interest</strong></div>
+                <div class="col text-white"><strong>Balance</strong></div>
+            </div>
+        </div>
     </main>
     <!-- ==== Footer Section ==== -->    
     <footer class="footer mt-auto py-3">

@@ -55,6 +55,10 @@ footer .social>a:hover {
     color: var(--secondary-color)
 }
 
+.tableHeaders {
+    background-color: #020231
+}
+
 code[class*="language-"],
 pre[class*="language-"] {
     white-space: pre-wrap;
